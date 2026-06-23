@@ -1,0 +1,157 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FridgeAI — Розумний помічник на вашій кухні</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --primary-hover: #1b5e20;
+            --bg-color: #f5f7f5;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --text-muted: #666666;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.75rem;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 20px;
+        }
+
+        .features {
+            text-align: left;
+            margin: 30px auto;
+            max-width: 500px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .features li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+            font-size: 1.05rem;
+        }
+
+        .features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 14px 32px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.2s, transform 0.1s;
+            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.2);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        footer {
+            margin: 60px 0 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FridgeAI</h1>
+        <p>Розумна кулінарна екосистема у вашому смартфоні</p>
+    </header>
+
+    <div class="container">
+        <h2>Магія штучного інтелекту на вашій кухні</h2>
+        <p>FridgeAI допомагає ефективно керувати вмістом вашого холодильника, контролювати терміни придатності продуктів та автоматично створювати покрокові рецепти за допомогою штучного інтелекту Gemini.</p>
+        
+        <ul class="features">
+            <li>Генерація персоналізованих ШІ-рецептів</li>
+            <li>Автоматичний розрахунок КБЖВ страв</li>
+            <li>Контроль термінів придатності та сповіщення</li>
+            <li>Вбудована щоденна гра «Кулінарне Слово»</li>
+        </ul>
+
+        <a href="https://play.google.com/store/apps/details?id=com.klaster.fridgeai&pcampaignid=web_share" class="btn">Завантажити в Google Play</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FridgeAI. Всі права захищені.</p>
+        <p>Підтримка та контакти: <a href="mailto:k.slepnev@i.ua">k.slepnev@i.ua</a></p>
+    </footer>
+
+</body>
+</html>
